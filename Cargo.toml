@@ -9,7 +9,7 @@ name = "test_rs"
 path = "src/lib.rs"
 crate-type = ["staticlib"]
 
-[build]
+# [build]
 # out-dir = "./"
 # target-dir = "./"
 

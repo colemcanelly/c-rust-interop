@@ -1,0 +1,18 @@
+[package]
+name = "crust"
+version = "0.1.0"
+edition = "2021"
+
+# Configuration for Static Library Building
+[lib]
+name = "test_rs"
+path = "src/lib.rs"
+crate-type = ["staticlib"]
+
+[build]
+# out-dir = "./"
+# target-dir = "./"
+
+# Build Dependancies for our project
+[dependencies]
+

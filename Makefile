@@ -2,12 +2,12 @@
 
 all: test.out
 
-libtest.c.a:
+libtest_c.a:
 	gcc -c src/lib.c
 	ar -rc libtest.c.a lib.o
 	rm lib.o
 
-libtest.rs.a:
+libtest_rs.a:
 	rustc --crate-type=staticlib src/lib.rs -o libtest.rs.a
 
 

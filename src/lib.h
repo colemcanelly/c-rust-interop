@@ -2,9 +2,10 @@
 #define TESTLIB
 
 // From C
-void c_func();
+const char* c_func(int);
+void times2(int*);
 
 // From Rust
-void rs_func();
+void rs_func(int*);
 
 #endif
